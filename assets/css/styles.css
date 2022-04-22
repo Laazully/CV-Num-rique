@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
 }
+
+
+/* &&&&&&&&&&&&&&&&&&&&&& ACCUEIL &&&&&&&&&&&&&&&&&&&&&& */
+
 /* Haut de page */
 nav ul li {
     list-style: none;
@@ -37,7 +41,7 @@ li:hover{
     width: 100%;
 }
 
-.container{
+.containerAcc{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -91,7 +95,37 @@ a:hover{
     font-size: uppercase;
     margin-top: 70px;
 }
+
 #aPropos:hover{
     transform: scale(1, 0.5);
     color: grey;
+}
+
+/*&&&&&&&&&&&&&&&&&&&&&& COMPETENCES &&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+
+.progress{
+    width: 45%;
+}
+
+.front{
+    background-color: #2E2E2E;
+    color: #F9B43B;
+    height: 100vh;
+    width: 100%;
+}
+
+.design{
+    background-color: #F9B43B; 
+    height: 100vh;
+    width: 100%;
+}
+
+#doubTwo{
+    color: #F9B43B;
+}
+
+span{
+    font-family:'Square Peg', 'cursive'; ;
+    color: #2E2E2E;
 }
