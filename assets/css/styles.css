@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@100;400;700&family=Square+Peg&family=Titillium+Web:wght@200;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+    font-family:'Titillium Web','Montserrat';
+    font-size: capitalize;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bgAc{
+    
+    background-image: url("../img/acceuilBg.png");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    
+}
