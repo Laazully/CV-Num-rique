@@ -78,7 +78,9 @@ a{
 }
 
 a:hover{
+    transform: scale(1, 0.5);
     color: grey;
+    
 }
 
 /* Footer */
@@ -103,11 +105,7 @@ a:hover{
 
 /*&&&&&&&&&&&&&&&&&&&&&& COMPETENCES &&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
-
-.progress{
-    width: 45%;
-}
-
+/* GRIS */
 .front{
     background-color: #2E2E2E;
     color: #F9B43B;
@@ -115,6 +113,7 @@ a:hover{
     width: 100%;
 }
 
+/* JAUNE */
 .design{
     background-color: #F9B43B; 
     height: 100vh;
@@ -129,3 +128,8 @@ span{
     font-family:'Square Peg', 'cursive'; ;
     color: #2E2E2E;
 }
+
+.progress{
+    width: 45%;
+}
+
