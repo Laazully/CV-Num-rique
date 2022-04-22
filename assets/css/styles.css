@@ -65,7 +65,16 @@ li:hover{
 }
 
 .adresse, .tel , .mail{
-    padding: 8px;px;
+    padding: 8px;
+}
+/* liens tout blancs */
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: grey;
 }
 
 /* Footer */
