@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@100;400;700&family=Square+Peg&family=Titillium+Web:wght@200;400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,12 +9,33 @@
 /* &&&&&&&&&&&&&&&&&&&&&& ACCUEIL &&&&&&&&&&&&&&&&&&&&&& */
 
 /* Haut de page */
+
 nav ul li {
-    list-style: none;
-    font-family:'Montserrat','Titillium Web';
-    font-size: uppercase;
+    color: hsl(0, 0%, 28%);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 2px;    
 }
 
+nav ul li {
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 20s infinite linear;
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 600px;
+    }
+    100% {
+background-position: 600px;
+    }
+}
 /* navbar passe par dessus image car bg en background image */
 nav{
     padding-top:20px;
@@ -25,6 +46,7 @@ ul{
     display: flex;
     justify-content: space-around;
 }
+
 /* hover effet écrasement */
 li:hover{
     transform: scale(1, 0.5);
@@ -65,12 +87,11 @@ li:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family:'Montserrat';
+    font-family:monospace;
+    font-size: 40px;
 }
 
-.adresse, .tel , .mail{
-    padding: 8px;
-}
+
 /* liens tout blancs */
 a{
     text-decoration: none;
@@ -92,10 +113,33 @@ a:hover{
     align-items: center;
 }
 
-#aPropos{
-    font-family:'Montserrat','Titillium Web';
-    font-size: uppercase;
-    margin-top: 70px;
+
+#aPropos {
+    color: hsl(0, 0%, 28%);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+#aPropos {
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 20s infinite linear;
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 600px;
+    }
+    100% {
+background-position: 600px;
+    }
 }
 
 #aPropos:hover{
@@ -104,6 +148,7 @@ a:hover{
 }
 
 /*&&&&&&&&&&&&&&&&&&&&&& COMPETENCES &&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
 
 /* GRIS */
 .front{
@@ -125,7 +170,7 @@ a:hover{
 }
 
 span{
-    font-family:'Square Peg', 'cursive'; ;
+    font-family:'Josefin Sans','Titillium Web';
     color: #2E2E2E;
 }
 
@@ -133,3 +178,33 @@ span{
     width: 45%;
 }
 
+
+.titleLink {
+    color: hsl(0, 0%, 28%);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.titleLink {
+    padding: 64px;
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 30s infinite linear;
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 600px;
+    }
+    100% {
+background-position: 600px;
+    }
+}
