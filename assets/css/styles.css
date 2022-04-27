@@ -178,7 +178,6 @@ span{
     width: 45%;
 }
 
-
 .titleLink {
     color: hsl(0, 0%, 28%);
     font-size: 20px;
@@ -207,4 +206,57 @@ span{
     100% {
 background-position: 600px;
     }
+}
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&& A PROPOS &&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+/* barre de nav texte position absolue */
+nav{
+    position: absolute;
+}
+
+.h2Side{
+    font-size: 18px;
+    transform: rotate(-45deg);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.topPart{
+    display: flex;
+}
+.sideNavTop{
+    background-color:#F9B43B;
+    height: 50vh;
+    width: 150px;
+}
+
+.sideNavBottom{
+    background-color:#2E2E2E;
+    height: 50vh;
+    width: 150px;
+}
+
+.navSide{
+    margin-top:80px;
+}
+
+.topApropos{
+    background-color:#2E2E2E;
+    height: 50vh;
+    width: 100%;
+}
+
+.bottomPart{
+    display: flex;
+}
+.bottomApropos{
+    background-color: #F9B43B;
+    height: 50vh;
+    width: 100%;
+}
+.carousel{
+    margin-top: 30px;
+    margin-left: 100px;
+    max-width: 300px;
 }
