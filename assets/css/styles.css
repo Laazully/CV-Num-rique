@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 
@@ -10,49 +11,25 @@
 
 /* Haut de page */
 
-nav ul li {
-    color: hsl(0, 0%, 28%);
+.nav ul li {
+    padding-top: 20px;
+    list-style: none;
+    font-family:'Montserrat';
     font-size: 20px;
-    font-weight: bold;
-    font-family: monospace;
-    letter-spacing: 2px;    
-}
-
-nav ul li {
-    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: shine 20s infinite linear;
-}
-
-@keyframes shine {
-    0% {
-        background-position: 0;
-    }
-    60% {
-        background-position: 600px;
-    }
-    100% {
-background-position: 600px;
-    }
-}
-/* navbar passe par dessus image car bg en background image */
-nav{
-    padding-top:20px;
-    color: #fff;
+    font-weight: 700;
+    
 }
 
 ul{
     display: flex;
     justify-content: space-around;
-}
+}    
 
 /* hover effet écrasement */
 li:hover{
     transform: scale(1, 0.5);
     color: grey;
 }
-/* Body */
 
 /*  pour mettre image sur tte la page accueil */
 .bgAc{
@@ -64,90 +41,41 @@ li:hover{
 }
 
 .containerAcc{
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 500px;
 }
 
-.left, .right{
-    color: #fff;
-}
-
 .left{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     font-family: 'Square Peg', 'cursive';
-    font-size: 50px;
+    font-size: 80px;
+    font-weight: 700;
+    color: #F9B43B;
 }
 
 .right{
+    font-family:'Montserrat';
+    font-size: 35px;
+    font-weight: 700;
+    color: #30A3F1;
+}
+
+.bas{
+    margin-top: 70px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    font-family:monospace;
-    font-size: 40px;
-}
-
-
-/* liens tout blancs */
-a{
-    text-decoration: none;
-    color: #fff;
-}
-
-a:hover{
-    transform: scale(1, 0.5);
-    color: grey;
+    justify-content: center;
+    font-family:'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
     
 }
 
-/* Footer */
-.bas{
-    display: flex;
-    color: #fff;
-    height: 150px;
-    justify-content: center;
-    align-items: center;
-}
-
-
-#aPropos {
-    color: hsl(0, 0%, 28%);
-    font-size: 20px;
-    font-weight: bold;
-    font-family: monospace;
-    letter-spacing: 2px;
-    margin-top: 30px;
-}
-
-#aPropos {
-    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: shine 20s infinite linear;
-}
-
-@keyframes shine {
-    0% {
-        background-position: 0;
-    }
-    60% {
-        background-position: 600px;
-    }
-    100% {
-background-position: 600px;
-    }
-}
-
-#aPropos:hover{
-    transform: scale(1, 0.5);
-    color: grey;
-}
-
 /*&&&&&&&&&&&&&&&&&&&&&& COMPETENCES &&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+
 
 
 /* GRIS */
@@ -178,35 +106,6 @@ span{
     width: 45%;
 }
 
-.titleLink {
-    color: hsl(0, 0%, 28%);
-    font-size: 20px;
-    font-weight: bold;
-    font-family: monospace;
-    letter-spacing: 2px;
-    cursor: pointer;
-    text-transform: uppercase;
-}
-
-.titleLink {
-    padding: 64px;
-    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: shine 30s infinite linear;
-}
-
-@keyframes shine {
-    0% {
-        background-position: 0;
-    }
-    60% {
-        background-position: 600px;
-    }
-    100% {
-background-position: 600px;
-    }
-}
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&&& A PROPOS &&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
@@ -221,7 +120,9 @@ nav{
     padding-top: 70px;
     padding-bottom: 70px;
 }
-
+.adresse, .tel , .mail{
+    padding: 8px;
+}
 .topPart{
     display: flex;
 }
