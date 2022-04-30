@@ -3,7 +3,6 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
 
 
@@ -17,23 +16,27 @@
     font-family:'Montserrat';
     font-size: 20px;
     font-weight: 700;
-    
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    text-shadow: 0px 0px 5px #e0e0e0;
 }
 
 ul{
+    padding-left: 120px;
     display: flex;
     justify-content: space-around;
 }    
 
 /* hover effet écrasement */
 li:hover{
-    transform: scale(1, 0.5);
+    transform: scale(0.5, 0.5);
     color: grey;
 }
 
 /*  pour mettre image sur tte la page accueil */
 .bgAc{
-    background-image: url("../img/acceuilBg.png");
+    background-image: url("../img/fondAccueilV2.png");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -63,20 +66,20 @@ li:hover{
 }
 
 .bas{
-    margin-top: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family:'Montserrat';
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
     
 }
 
+#job{
+    margin-top: 30px;
+    text-shadow: 0px 0px 5px #e0e0e0;
+}
 /*&&&&&&&&&&&&&&&&&&&&&& COMPETENCES &&&&&&&&&&&&&&&&&&&&&&&&&&& */
-
-
-
 
 /* GRIS */
 .front{
@@ -115,17 +118,23 @@ nav{
 }
 
 .h2Side{
+    list-style: none;
+    text-decoration: none;
     font-size: 18px;
     transform: rotate(-45deg);
     padding-top: 70px;
     padding-bottom: 70px;
 }
-.adresse, .tel , .mail{
-    padding: 8px;
+
+.coordonnées{
+    display: flex;
+    justify-content: space-around;
 }
+
 .topPart{
     display: flex;
 }
+
 .sideNavTop{
     background-color:#F9B43B;
     height: 50vh;
@@ -139,14 +148,45 @@ nav{
 }
 
 .navSide{
+    color: #000;
+    font-family: 'Montserrat';
+    font-weight: 700;
     margin-top:80px;
 }
 
+/* Div grise partie haute de la page */
+
 .topApropos{
+    display: flex;
+    flex-direction: column;
     background-color:#2E2E2E;
+    color: #F9B43B;
     height: 50vh;
     width: 100%;
 }
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.txtAP{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 800px;
+}
+/* icones en haut */
+i{padding: 10px;
+}
+
+.workLinks{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* partie basse de la page */
 
 .bottomPart{
     display: flex;
