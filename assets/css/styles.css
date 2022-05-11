@@ -1,24 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@100;400;700&family=Square+Peg&family=Titillium+Web:wght@200;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100;400;700;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
-
-
-/* &&&&&&&&&&&&&&&&&&&&&& ACCUEIL &&&&&&&&&&&&&&&&&&&&&& */
-
-/* Haut de page */
 
 a{
     text-decoration: none;
     color: #e0e0e0;
 }
 
+a:hover{
+    transform: scale(0.8, 1);
+    color: grey;
+}
+
+/* &&&&&&&&&&&&&&&&&&&&&& ACCUEIL &&&&&&&&&&&&&&&&&&&&&& */
+
+/* Haut de page */
+
+
 .nav ul li {
     padding-top: 20px;
     list-style: none;
-    font-family:'Montserrat';
+    font-family:'Lexend Mega', sans-serif;
     font-size: 20px;
     font-weight: 700;
     list-style: none;
@@ -62,7 +69,7 @@ li:hover{
 }
 
 .right{
-    font-family:'Montserrat';
+    font-family:'Lexend Mega', sans-serif;
     font-size: 35px;
     font-weight: 700;
     color: #30A3F1;
@@ -72,7 +79,7 @@ li:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family:'Montserrat';
+    font-family:'Lexend Mega', sans-serif;
     font-size: 30px;
     font-weight: 700;
     
@@ -80,35 +87,45 @@ li:hover{
 
 #job{
     margin-top: 30px;
-    color:#2E2E2E;
-    background-color:#e0e0e0;
+    color:#fff;
+    /* background-color:#e0e0e0; */
     border-radius: 15px;
 }
 /*&&&&&&&&&&&&&&&&&&&&&& COMPETENCES &&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
-/* GRIS */
+/* COTE GRIS */
+.titleGrey{
+    background-color: #2E2E2E;
+    color: #F9B43B;
+    height: 10vh;
+    width: 50vw;
+}
 .front{
     background-color: #2E2E2E;
     color: #F9B43B;
-    height: 100vh;
+    height: 90vh;
     width: 50vw;
 }
-/* JAUNE */
+
+/* COTE JAUNE */
+
+.titleYellow{
+    background-color: #F9B43B;
+    color: #2E2E2E;
+    height: 10vh;
+    width: 50vw;
+}
 .design{
     background-color: #F9B43B; 
-    height: 100vh;
+    color: #2E2E2E;
+    height: 90vh;
     width: 50vw;
 }
 
-#doubTwo{
-    color: #F9B43B;
-}
 /* textes qui chevauchent */
-#comp{
 
-}
-span{
-    font-family:'Josefin Sans','Titillium Web';
+.moit{
+    font-family:'Lexend Mega', sans-serif;
     color: #2E2E2E;
 }
 
@@ -155,7 +172,7 @@ nav{
 
 .navSide{
     color: #000;
-    font-family: 'Montserrat';
+    font-family: 'Lexend Mega', sans-serif;
     font-weight: 700;
     margin-top:80px;
 }
@@ -206,4 +223,78 @@ i{padding: 10px;
     margin-top: 30px;
     margin-left: 100px;
     max-width: 300px;
+}
+
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&& DIPLOMES XP &&&&&&&&&&&&&&&&&&&&&& */
+
+
+/* haut de page */
+.containerXp{
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    background-color: #2E2E2E;
+    height: 100vh;
+    width: 100vw;
+}
+
+.topXp{
+    display: flex;
+    
+}
+.navigXp{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* mid page */
+.midXp{
+    height: 80vh;;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9B43B;
+    padding-right: 15vw;
+}
+.divDip{
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    margin-top: 19vh;
+}
+.dateDip{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0 25px 0;
+    padding:20px;
+}
+.diplomes{
+    display: flex;
+    padding-right: 25px ;
+    
+}
+
+.divXp{
+    display: flex;
+    flex-direction: column;
+    
+}
+.experiences{
+    display: flex;
+    justify-content: center;
+    padding:20px;
+}
+.datesXp{
+    display: flex;
+    justify-content: space-around;
+    padding:20px;
+}
+.divIn{
+    height: 50vh;
+    width: 50vh;
+    background-color: rgb(23, 90, 192);
+    display: flex;
 }
