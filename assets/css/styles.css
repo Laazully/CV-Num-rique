@@ -91,6 +91,7 @@ li:hover{
     /* background-color:#e0e0e0; */
     border-radius: 15px;
 }
+
 /*&&&&&&&&&&&&&&&&&&&&&& COMPETENCES &&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
 /* COTE GRIS */
@@ -133,6 +134,79 @@ li:hover{
     width: 45%;
 }
 
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&& DIPLOMES XP &&&&&&&&&&&&&&&&&&&&&& */
+
+
+.containerXp{
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2E2E2E;
+    height: 100vh;
+    width: 100vw;
+    font-family:'Lexend Mega', sans-serif;
+}
+
+/* barre de nav */
+.topXp{
+    display: flex;
+}
+
+.navigXp{
+    font-family:'Lexend Mega', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 25px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2E2E2E;
+    
+}
+
+/* mid page */
+.midXp{
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F9B43B;
+}
+.divDip{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+.dateDip{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px 10px 0px;
+}
+.diplomes{
+    padding-bottom: 20px;
+}
+
+.divXp{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-bottom: 30px;
+}
+.experiences{
+    padding-bottom: 20px;
+}
+.datesXp{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px 10px 0px;
+}
+.divIn{
+    height: 50vh;
+    width: 50vh;
+    background-color: rgb(23, 90, 192);
+}
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&&& A PROPOS &&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
@@ -141,20 +215,25 @@ nav{
     position: absolute;
 }
 
+h2{
+    padding-bottom: 30px;
+}
+
+.h2Side:hover{
+    color: grey;
+}
+
 .h2Side{
+    color: #000;
     list-style: none;
     text-decoration: none;
+    font-family: 'Lexend Mega', sans-serif;
     font-size: 18px;
+    font-weight: 700;
     transform: rotate(-45deg);
     padding-top: 70px;
     padding-bottom: 70px;
 }
-
-.coordonnées{
-    display: flex;
-    justify-content: space-around;
-}
-
 .topPart{
     display: flex;
 }
@@ -163,23 +242,22 @@ nav{
     height: 50vh;
     width: 150px;
 }
-
 .sideNavBottom{
     background-color:#2E2E2E;
     height: 50vh;
     width: 150px;
 }
-
 .navSide{
-    color: #000;
-    font-family: 'Lexend Mega', sans-serif;
-    font-weight: 700;
+    color: #2E2E2E;
+    text-shadow: #F9B43B 1px 1px 1px;
     margin-top:80px;
 }
 
 /* Div grise partie haute de la page */
 
 .topApropos{
+    
+    justify-content: space-around;
     display: flex;
     flex-direction: column;
     background-color:#2E2E2E;
@@ -191,6 +269,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-bottom: 50px;
 }
 .txtAP{
     font-size: 20px;
@@ -200,9 +279,9 @@ nav{
     width: 800px;
 }
 /* icones en haut */
+
 i{padding: 10px;
 }
-
 .workLinks{
     font-size: 30px;
     display: flex;
@@ -210,91 +289,47 @@ i{padding: 10px;
 }
 
 /* partie basse de la page */
-
+p{
+    padding-left: 8vw;
+}
 .bottomPart{
     display: flex;
 }
 .bottomApropos{
+    display: flex;
+    justify-content: space-evenly;
     background-color: #F9B43B;
     height: 50vh;
     width: 100%;
 }
+
+.leftApropos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10vw;
+}
+
 .carousel{
-    margin-top: 30px;
     margin-left: 100px;
-    max-width: 300px;
+    max-width: 250px;
 }
 
+.fa-instagram{
+    color: #2E2E2E;
+    font-size: 30px;
+}
 
-/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&& DIPLOMES XP &&&&&&&&&&&&&&&&&&&&&& */
+.rightApropos{
+    display: flex; 
+    font-size: 30px;      
+}
 
-
-/* haut de page */
-.containerXp{
-    color:#fff;
-    display: flex;
-    justify-content: center;
+.divRound{
+    margin-top: 5vh;
+    height: 40vh;
+    width: 20vw;
     background-color: #2E2E2E;
-    height: 100vh;
-    width: 100vw;
-}
-
-.topXp{
-    display: flex;
-    
-}
-.navigXp{
-    width: 100vw;
-    display: flex;
-    justify-content: space-around;
-}
-
-/* mid page */
-.midXp{
-    height: 80vh;;
-    width: 80vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #F9B43B;
-    padding-right: 15vw;
-}
-.divDip{
-    display: flex;
-    align-items: center;
-    height: 50vh;
-    margin-top: 19vh;
-}
-.dateDip{
-    display: flex;
-    flex-direction: column;
-    padding: 25px 0 25px 0;
-    padding:20px;
-}
-.diplomes{
-    display: flex;
-    padding-right: 25px ;
-    
-}
-
-.divXp{
-    display: flex;
-    flex-direction: column;
-    
-}
-.experiences{
-    display: flex;
-    justify-content: center;
-    padding:20px;
-}
-.datesXp{
-    display: flex;
-    justify-content: space-around;
-    padding:20px;
-}
-.divIn{
-    height: 50vh;
-    width: 50vh;
-    background-color: rgb(23, 90, 192);
-    display: flex;
+    border-radius: 50%;        
 }

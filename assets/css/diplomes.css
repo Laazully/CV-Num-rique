@@ -1,0 +1,75 @@
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&& DIPLOMES XP &&&&&&&&&&&&&&&&&&&&&& */
+
+
+/* haut de page */
+.containerXp{
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    background-color: #2E2E2E;
+    height: 100vh;
+    width: 100vw;
+}
+
+.topXp{
+    display: flex;
+    
+}
+.navigXp{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F9B43B;
+    
+}
+
+
+/* mid page */
+.midXp{
+    height: 80vh;;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9B43B;
+    padding-right: 15vw;
+}
+.divDip{
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    margin-top: 19vh;
+}
+.dateDip{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0 25px 0;
+    padding:20px;
+}
+.diplomes{
+    display: flex;
+    padding-right: 25px ;
+    
+}
+
+.divXp{
+    display: flex;
+    flex-direction: column;
+    
+}
+.experiences{
+    display: flex;
+    justify-content: center;
+    padding:20px;
+}
+.datesXp{
+    display: flex;
+    justify-content: space-around;
+    padding:20px;
+}
+.divIn{
+    height: 50vh;
+    width: 50vh;
+    background-color: rgb(23, 90, 192);
+    display: flex;
+}
