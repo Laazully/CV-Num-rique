@@ -330,6 +330,6 @@ p{
     margin-top: 5vh;
     height: 40vh;
     width: 20vw;
-    background-color: #2E2E2E;
+    border: solid 5px #2E2E2E;
     border-radius: 50%;        
 }
