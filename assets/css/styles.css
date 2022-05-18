@@ -217,6 +217,7 @@ nav{
 
 h2{
     padding-bottom: 30px;
+    
 }
 
 .h2Side:hover{
@@ -289,9 +290,7 @@ i{padding: 10px;
 }
 
 /* partie basse de la page */
-p{
-    padding-left: 8vw;
-}
+
 .bottomPart{
     display: flex;
 }
@@ -326,7 +325,7 @@ p{
     font-size: 30px;      
 }
 
-.divRound{
+.divRandom{
     margin-top: 5vh;
     height: 40vh;
     width: 20vw;
