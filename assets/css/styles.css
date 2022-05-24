@@ -101,13 +101,13 @@ li:hover{
     background-color: #2E2E2E;
     color: #F9B43B;
     height: 10vh;
-    width: 50vw;
+    /* width: 50vw; */
 }
 .front{
     background-color: #2E2E2E;
     color: #F9B43B;
     height: 90vh;
-    width: 50vw;
+    /* width: 50vw; */ 
 }
 
 /* COTE JAUNE */
@@ -116,13 +116,13 @@ li:hover{
     background-color: #F9B43B;
     color: #2E2E2E;
     height: 10vh;
-    width: 50vw;
+    /* width: 50vw; */
 }
 .design{
     background-color: #F9B43B; 
     color: #2E2E2E;
     height: 90vh;
-    width: 50vw;
+    /* width: 50vw; */
 }
 
 /* textes qui chevauchent */
