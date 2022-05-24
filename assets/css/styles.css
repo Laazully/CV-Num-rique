@@ -9,6 +9,7 @@
 
 a{
     text-decoration: none;
+    text-shadow: 1px 1px 0px#2E2E2E;
     color: #e0e0e0;
 }
 
@@ -23,7 +24,7 @@ a:hover{
 
 
 .nav ul li {
-    padding-top: 20px;
+    padding: 20px 145px 0px 0px;
     list-style: none;
     font-family:'Lexend Mega', sans-serif;
     font-size: 20px;
@@ -46,7 +47,7 @@ li:hover{
 
 /*  pour mettre image sur tte la page accueil */
 .bgAc{
-    background-image: url("../img/fondAccueilV2.png");
+    background-image: url("../img/Plan\ de\ travail\ 1.png");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -65,14 +66,14 @@ li:hover{
     font-family: 'Square Peg', 'cursive';
     font-size: 80px;
     font-weight: 700;
-    color: #F9B43B;
+    color: #2E2E2E;
 }
 
 .right{
     font-family:'Lexend Mega', sans-serif;
     font-size: 35px;
     font-weight: 700;
-    color: #30A3F1;
+    color: #F9B43B;
 }
 
 .bas{
@@ -88,6 +89,7 @@ li:hover{
 #job{
     margin-top: 30px;
     color:#fff;
+    text-shadow: 1px 1px 0px#2E2E2E;
     /* background-color:#e0e0e0; */
     border-radius: 15px;
 }
