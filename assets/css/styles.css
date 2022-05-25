@@ -352,7 +352,9 @@ i{padding: 10px;
 
     /* &&&&&&&&&&&&&&&&&&&&&&&&& ACCUEIL &&&&&&&&&&&&&&&&&&&&& */
 
-    
+    .closeIcon {
+        display: none;
+    }
     
     .menuItem {
         display: block;
@@ -372,11 +374,10 @@ i{padding: 10px;
         border: black solid 1px;
         background:#2E2E2E;
         color: #F9B43B;
+        font-size: 30px;
     }
 
-    .closeIcon {
-        display: none;
-    }
+    
 
     .menu {
         display: block;
