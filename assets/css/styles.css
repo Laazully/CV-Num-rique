@@ -22,6 +22,9 @@ a:hover{
 
 /* Haut de page */
 
+.menu , menuItem , .hamburger {
+    display: none;
+}
 
 .nav ul li {
     padding: 20px 145px 0px 0px;
@@ -60,6 +63,10 @@ li:hover{
     justify-content: space-around;
     align-items: center;
     height: 500px;
+}
+
+.burgerAcc, .crossAcc {
+    display: none;
 }
 
 .left{
@@ -333,4 +340,106 @@ i{padding: 10px;
     width: 20vw;
     border: solid 5px #2E2E2E;
     border-radius: 50%;        
+}
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& MODE PHONE &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+
+@media screen and (max-width: 768px) {
+
+
+    /* &&&&&&&&&&&&&&&&&&&&&&&&& ACCUEIL &&&&&&&&&&&&&&&&&&&&& */
+
+    
+    
+    .menuItem {
+        display: block;
+        margin: 1rem 2rem;
+        font-size: 1.8rem;
+        color: white;
+        text-decoration: none;
+    }
+
+    .hamburger{
+        display: block;
+        position: fixed;
+        z-index: 100;
+        top: 1rem;
+        right: 1rem;
+        padding: 4px;
+        border: black solid 1px;
+        background:#2E2E2E;
+        color: #F9B43B;
+    }
+
+    .closeIcon {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        position: fixed;
+        transform: translateY(-100%);
+        transition: transform 0.2s;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 99;
+        background: black;
+        color: white;
+        list-style: none;
+        padding-top: 4rem;
+    }
+
+    .showMenu {
+        transform: translateY(0);
+    }
+
+    li { 
+        font-size: 25px;
+        list-style: none;
+        text-decoration: none;
+        color: #e0e0e0;
+        padding: 50px;
+    }
+
+    ul{
+        padding-left: 0px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    .right, .left {
+        padding-bottom: 20vh;
+    }
+
+    .right{
+        font-size: 25px;
+    }
+
+    .left{
+        padding-left: 20px;
+        font-size: 50px;
+    }
+
+    .nav{
+        display: none ;
+    }
+
+    .containerAcc{
+        margin-top: 0vh;
+        height: 50vh;
+        
+    }
+
+    #job{
+        padding-top: 150px;
+        text-align: center;
+        font-size: 40px;
+        
+    }
 }
