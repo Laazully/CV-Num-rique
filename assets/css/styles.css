@@ -258,11 +258,11 @@ h2{
 }
 
 .h2Side{
-    color: #000;
+    color: #fff;
     list-style: none;
     text-decoration: none;
     font-family: 'Lexend Mega', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 700;
     transform: rotate(-45deg);
     padding-top: 70px;
@@ -316,7 +316,9 @@ h2{
 
 i{padding: 10px;
 }
-.workLinks{
+.workLinks, a{
+    text-decoration: none;
+    color: #F9B43B;
     font-size: 30px;
     display: flex;
     flex-direction: column;
@@ -342,7 +344,23 @@ i{padding: 10px;
     justify-content: center;
     padding-right: 10vw;
 }
-
+.underC {
+    display: flex;
+}
+p{
+    font-size: 20px;
+    padding-left: 5vw;
+}
+.illu{
+    padding-top: 15px;
+    padding-left: 6.5vw;
+}
+.like{
+    padding-left: 2vh;
+}
+.pasQue{
+    padding-top: 40vh;
+}
 .carousel{
     margin-left: 100px;
     max-width: 250px;
@@ -353,19 +371,95 @@ i{padding: 10px;
     font-size: 30px;
 }
 
+
 .rightApropos{
     display: flex; 
     font-size: 30px;      
 }
 
 .divRandom{
-    margin-top: 5vh;
+    margin-top: 20px;
     height: 40vh;
-    width: 20vw;
+    width: 19vw;
     border: solid 5px #2E2E2E;
     border-radius: 50%;        
 }
+/* ICONES HOBBIES */
+.fa-music{
+    position: absolute;
+    padding: 80px 0px 0px 20px;
+}
 
+.fa-screwdriver-wrench{
+    position: absolute;
+    padding: 80px 0px 0px 230px;
+}
+.fa-person-biking{
+    position: absolute;
+    padding: 240px 0px 0px 125px;
+}
+.fa-person-swimming{
+    position: absolute;
+    padding: 100px 0px 0px 170px;
+}
+
+.fa-video{
+    position: absolute;
+    padding: 100px 0px 0px 80px;
+}
+
+.fa-film{
+    position: absolute;
+    padding: 180px 0px 0px 210px;
+}
+
+.fa-atom{
+    position: absolute;
+    padding: 10px 0px 0px 125px;
+}
+
+.fa-palette{
+    position: absolute;
+    padding: 180px 0px 0px 40px;
+}
+
+.fa-gamepad{
+    position: absolute;
+    padding: 170px 0px 0px 120px;
+    
+}
+
+.fa-dice-d20 {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-3px, 6px, 6px);
+    }
+
+    20%, 80% {
+        transform: translate3d(6px, -9px, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-9px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(12px, 0, 0);
+    }
+}
+
+.divRandom{
+    animation: rotate 30s linear infinite; 
+}
+@keyframes rotate{
+    to{ transform: rotate(360deg); }
+}
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& MODE PHONE &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
@@ -506,4 +600,127 @@ i{padding: 10px;
     .containerCompTop{
         display: none;
     }
+
+
+    /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& A PROPOS MODE MOBILE &&&&&&&&&&&&&&&&&&&&&&&&& */
+
+    .sideNavTop , .sideNavBottom , .navSide{
+        display: none;
+    }
+
+    .topPart{
+        width: 100vw;
+    }
+    
+    .intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        height: 50vh;
+        padding: 0px 0px 0px 0px ;
+        margin: 0px 0px 0px 0px ;
+    }
+
+    .txtAP {
+        margin-top: 0px;
+        margin-left : 0px;
+        justify-content: center;
+        font-size: 20px;
+        text-align: center;
+        width: 80vw;
+    }
+
+    p{
+        font-size: 13px;
+        padding-left: 0vw;
+    }
+
+    .workLinks {
+        font-size: 30px;
+        flex-direction: row;
+        
+    }
+
+    /* partie jaune */
+    #carouselExampleIndicators{
+        margin: 0 0 0 0
+    }
+
+    .bottomPart{
+        height: 50vh;
+        width: 100vw;
+    }
+    .bottomApropos{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+    }
+    .leftApropos{
+        padding-right: 0vw;
+    }
+    .rightApropos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divRandom{
+        margin:0px 0px 0px 0px; 
+        height: 25vh;
+        width: 45vw;
+    }
+    .fa-solid, .fa-instagram{
+        font-size: 20px;
+    }
+
+    .pasQue{
+        padding-top: 10px;
+    }
+
+    /* ICONES HOBBIES */
+.fa-music{
+    position: absolute;
+    padding: 40px 0px 0px 10px;
+}
+
+.fa-screwdriver-wrench{
+    position: absolute;
+    padding: 40px 0px 0px 115px;
+}
+.fa-person-biking{
+    position: absolute;
+    padding: 120px 0px 0px 62.5px;
+}
+.fa-person-swimming{
+    position: absolute;
+    padding: 50px 0px 0px 85px;
+}
+
+.fa-video{
+    position: absolute;
+    padding: 50px 0px 0px 40px;
+}
+
+.fa-film{
+    position: absolute;
+    padding: 90px 0px 0px 105px;
+}
+
+.fa-atom{
+    position: absolute;
+    padding: 5px 0px 0px 62.5px;
+}
+
+.fa-palette{
+    position: absolute;
+    padding: 90px 0px 0px 20px;
+}
+
+.fa-gamepad{
+    position: absolute;
+    padding: 85px 0px 0px 60px;
+    
+}
 }

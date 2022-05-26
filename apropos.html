@@ -18,15 +18,25 @@
         <a href="competences.html"> <h2 class="h2Side navPartYellow"> COMPÉTENCES </h2> </a> 
     </nav>
     <div class="topPart">
-        <!-- Barre de nav haut -->
+        
         <div class="sideNavTop">
             
         </div>
         <!-- partie haute texte -->
         <div class="topApropos">
+            
             <div class="intro">
+                <ul class="menu ">
+                    <li> <a class="menuItem" href="competences.html"> COMPÉTENCES </a> </li>
+                    <li> <a class="menuItem" href="diplomes.html"> DIPLOMES / EXPÉRIENCES </a> </li>
+                    <li> <a class="menuItem" href="index.html"> ACCUEIL </a> </li>
+                </ul>
+                <button class="hamburger">
+                    <i class=" menuIcon fa-solid fa-bars"></i>
+                    <i class=" closeIcon fa-solid fa-xmark"></i>
+                </button>
                 <div class="txtAP">
-                    <h2>A PROPOS</h2> 
+                    <h2>À PROPOS</h2> 
                     <p>
                         Passionnée depuis toujours par l'Art sous toutes ses formes. 
                         J'aime jouer avec les images, les transformer avec tous les outils possibles. 
@@ -36,8 +46,8 @@
                     </p>
                 </div>
                 <div class="workLinks">
-                    <i class="fa-brands fa-github"></i>
-                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="https://github.com/Laazully"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/claire-mahieux-712b9a151/"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
         </div>
@@ -52,7 +62,7 @@
         <!-- hobby + slides -->
         <div class="bottomApropos">
             <div class="leftApropos">
-                <p>Je fais aussi des illustrations</p>
+                <p class="illu"> Je fais aussi des illustrations</p>
                 <!-- carousel -->
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -92,10 +102,14 @@
                     <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-                <p> <i class="fa-brands fa-instagram"></i> Et de la bande dessinée </p>
+                <div class="underC">
+                    <a href="https://www.instagram.com/clair3.d3.lun3/?hl=fr"><i class="fa-brands fa-instagram"></i></a> 
+                    <p>Et de la bande dessinée </p> 
+                </div>
+                    
             </div>
             <div class="rightApropos">
-                <i class="fa-solid fa-dice-d20"></i><div>J'aime</div>
+                <i class="fa-solid fa-dice-d20"></i><p class="like">J'aime</p>
                 
                 <div class="divRandom">
                     <i class="fa-solid fa-music random"></i>
@@ -108,7 +122,7 @@
                     <i class="fa-solid fa-palette random"></i>
                     <i class="fa-solid fa-gamepad random"></i>
                 </div>
-                <div>Et pas que...</div>
+                <p class="pasQue">Et pas que...</p>
             </div>
 
         </div>
