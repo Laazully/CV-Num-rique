@@ -212,7 +212,7 @@ li{
     margin-bottom: 80px;
 }
 
-.imgOne, .imgTwo , .imgTree , .imgFor , .imgFive, .imgSix ,.imgSeven, .imgEight , .imgNine{
+.imgOne, .imgTwo , .imgTree , .imgFour , .imgFive, .imgSix ,.imgSeven, .imgEight , .imgNine{
     display: none;
 }
 
@@ -746,11 +746,17 @@ p{
     .midXp {
         height: 39vh;
         width: 90vw;
-        margin-bottom: 0px;
+        margin-bottom: 30vh;
+        font-size: 20px;
     }
     .divIn{
-        display: none;
-        
+        position: absolute;
+        margin-top: 70vh;
+        height: 40vh;
+        width: 50vw;
+        height: 50vh;
+        width: 80vw;
+        font-size: 20px;
     }
     .divDip {
         padding-bottom: 9vh;
@@ -758,10 +764,10 @@ p{
     .diplomes {
         padding-bottom: 9px;
     }
-    .divInMob{
-        
-        height: 39vh;
-        width: 90vw;
-        display: block;
+    
+    .imgFive, .imgSix , .imgSeven, .imgEight {
+        padding-top: 20vh ;
+        padding-left: 2vw;
+        color: #fff;
     }
 }

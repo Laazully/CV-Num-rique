@@ -53,91 +53,98 @@ var imgNine = document.querySelector('.imgNine');
 // console.log(dateSix)
 
 // LA MANU
-dateSix.addEventListener('mouseover', function() {
-    console.log(dateSix)
-    imgOne.style.display = 'block';
-})
-dateSix.addEventListener('mouseout', function() {
-    imgOne.style.display = 'none';
+dateSix.addEventListener('click', function() {
+    setTimeout(function() {
+        imgOne.style.display = 'block';
+        setTimeout(function(){
+            imgOne.style.display = 'none';
+        },3000)
+    },200);
+    
 })
 
 // COMDATA
-dateSeven.addEventListener('mouseover', function() {
-    console.log(dateSeven)
-    imgTwo.style.display = 'block';
-})
-dateSeven.addEventListener('mouseout', function() {
-    imgTwo.style.display = 'none';
+
+dateSeven.addEventListener('click', function() {
+    setTimeout(function() {
+        imgTwo.style.display = 'block';
+        setTimeout(function(){
+            imgTwo.style.display = 'none';
+        },3000)
+    },200);
 })
 
 // LA NEUVILLE
-dateEight.addEventListener('mouseover', function() {
-    console.log(dateSeven)
-    imgTree.style.display = 'block';
+dateEight.addEventListener('click', function() {
+    setTimeout(function() {
+        imgTree.style.display = 'block';
+        setTimeout(function(){
+            imgTree.style.display = 'none';
+        },3000)
+    },200);
 })
-dateEight.addEventListener('mouseout', function() {
-    imgTree.style.display = 'none';
-})
+
 
 // FAMILO
-dateNine.addEventListener('mouseover', function() {
-    console.log(dateSix)
-    imgFour.style.display = 'block';
+dateNine.addEventListener('click', function() {
+    setTimeout(function() {
+        imgFour.style.display = 'block';
+        setTimeout(function(){
+            imgFour.style.display = 'none';
+        },3000)
+    },200);
 })
-dateNine.addEventListener('mouseout', function() {
-    imgFour.style.display = 'none';
-})
+
 
 // MAURICE
-dateFive.addEventListener('mouseover', function() {
-    console.log(dateFive)
-    imgNine.style.display = 'block';
+dateFive.addEventListener('click', function() {
+    setTimeout(function() {
+        imgNine.style.display = 'block';
+        setTimeout(function(){
+            imgNine.style.display = 'none';
+        },3000)
+    },200);
 })
 
-dateFive.addEventListener('mouseout', function() {
-    imgNine.style.display = 'none';
-})
 
 // WEBDESIGN
-dateOne.addEventListener('mouseover', function() {
-    console.log(dateSix)
-    imgFive.style.display = 'block';
+dateOne.addEventListener('click', function() {
+    setTimeout(function() {
+        imgFive.style.display = 'block';
+        setTimeout(function(){
+            imgFive.style.display = 'none';
+        },3000)
+    },200);
 })
-dateOne.addEventListener('mouseout', function() {
-    imgFive.style.display = 'none';
-})
+
 
 // PCIE
-dateTwo.addEventListener('mouseover', function() {
-    console.log(dateSix)
-    imgSix.style.display = 'block';
-})
-dateTwo.addEventListener('mouseout', function() {
-    imgSix.style.display = 'none';
+dateTwo.addEventListener('click', function() {
+    setTimeout(function() {
+        imgSix.style.display = 'block';
+        setTimeout(function(){
+            imgSix.style.display = 'none';
+        },3000)
+    },200);
 })
 
+
 // MASTER
-dateTree.addEventListener('mouseover', function() {
-    console.log(dateSix)
-    imgSeven.style.display = 'block';
-})
-dateTree.addEventListener('mouseout', function() {
-    imgSeven.style.display = 'none';
+dateTree.addEventListener('click', function() {
+    setTimeout(function() {
+        imgSeven.style.display = 'block';
+        setTimeout(function(){
+            imgSeven.style.display = 'none';
+        },3000)
+    },200);
 })
 
 // BAC
-dateFour.addEventListener('mouseover', function() {
-    console.log(dateSix)
-    imgEight.style.display = 'block';
+dateFour.addEventListener('click', function() {
+    setTimeout(function() {
+        imgEight.style.display = 'block';
+        setTimeout(function(){
+            imgEight.style.display = 'none';
+        },3000)
+    },200);
 })
-dateFour.addEventListener('mouseout', function() {
-    imgEight.style.display = 'none';
-})
-// var divIn = document.queryselector('.divIn');
-
-// divIn.addEventListener('mouseover', function() {
-//     divIn.style.backgroundImage = "url('assets/img/img2.png')"
-// })
-// divIn.addEventListener('mouseout', function() {
-//     divIn.style.backgroundImage = "url('assets/img/img1.jpg')"
-// })
