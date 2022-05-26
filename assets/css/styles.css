@@ -53,11 +53,26 @@ li:hover{
 
 /*  pour mettre image sur tte la page accueil */
 .bgAc{
-    background-image: url("../img/Plan\ de\ travail\ 1.png");
+    background-image: url("../img/Fond\ vide.png");
     background-size: cover;
     background-position: center center;
     height: 100vh;
     width: 100%;
+}
+
+.me{
+    margin: 82px 47px 0px 0px;
+    position: absolute;
+    height: 70vh;
+    width: 100%;
+    background-image: url("../img/me.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: 2s;
+    transition-delay: 0s;
+    
+    
+
 }
 
 .containerAcc{
@@ -564,17 +579,32 @@ p{
 
     .containerAcc{
         margin-top: 0vh;
-        height: 50vh;
+        height: 60vh;
         
     }
 
+    .me{
+        margin: 250px 0px 0px 0px;
+        width: 189vw;
+        height: 100vh;
+        transform: scale(0.5);
+    }
+
     #job{
-        padding-top: 150px;
+        position: absolue;
+        margin-top: 150px;
         text-align: center;
         font-size: 40px;
         
     }
-
+    
+    .contact{
+        height: 20vh;
+        background-color: #2E2E2E;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
     /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&  COMPETENCES MODE MOBILE  &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
     
