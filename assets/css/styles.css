@@ -250,7 +250,8 @@ nav{
 
 h2{
     padding-bottom: 30px;
-    
+    font-family:'Lexend Mega', sans-serif;
+    font-size: 20px;
 }
 
 .h2Side:hover{
@@ -290,7 +291,6 @@ h2{
 /* Div grise partie haute de la page */
 
 .topApropos{
-    
     justify-content: space-around;
     display: flex;
     flex-direction: column;
@@ -347,9 +347,11 @@ i{padding: 10px;
 .underC {
     display: flex;
 }
+
 p{
-    font-size: 20px;
-    padding-left: 5vw;
+    font-family:'Lexend Mega', sans-serif;
+    font-size: 15px;
+    padding-left: 2vw;
 }
 .illu{
     padding-top: 15px;
