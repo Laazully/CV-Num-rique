@@ -9,7 +9,7 @@
 
 a{
     text-decoration: none;
-    text-shadow: 1px 1px 0px#2E2E2E;
+    text-shadow: 2px 2px 0px#2E2E2E;
     color: #e0e0e0;
 }
 
@@ -96,74 +96,76 @@ li:hover{
 #job{
     margin-top: 30px;
     color:#fff;
-    text-shadow: 1px 1px 0px#2E2E2E;
+    text-shadow: 2px 2px 0px#2E2E2E;
     /* background-color:#e0e0e0; */
     border-radius: 15px;
 }
 
 /*&&&&&&&&&&&&&&&&&&&&&& COMPETENCES &&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
-
-
-/* COTE GRIS */
-.titleGrey{
-    background-color: #2E2E2E;
-    color: #F9B43B;
-    height: 10vh;
-    /* width: 50vw; */
+.containerCompTop , .ul .li {
+    position: absolute;
+    display: flex;
+    padding-left: 10vw;
+    font-size: 25px;
+    list-style: none;
+    font-family:'Lexend Mega', sans-serif;
+    font-weight: 700;
+    list-style: none;
+    color: #2E2E2E;
+    
 }
 
-.front{
-    background-color: #2E2E2E;
-    color: #F9B43B;
+li{
+    padding: 2vh 5vw 0px 5vw;
+}
+
+.progress {
+    width: 80%;
+    
+}
+
+.containerComp{
+    display: flex;
+}
+
+.greyLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    padding: 0px 20px 0px 120px;
     height: 100vh;
-    /* width: 50vw; */ 
+    width:100vw;
+    background-color: #2E2E2E;
+    color: #F9B43B;
 }
 
-/* COTE JAUNE */
-
-.titleYellow{
+.YellRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    padding: 0px 20px 0px 120px;
+    height: 100vh;
+    width:100vw;
     background-color: #F9B43B;
-    color: #2E2E2E;
-    height: 10vh;
-    /* width: 50vw; */
 }
-.design{
-    background-color: #F9B43B; 
-    color: #2E2E2E;
-    height: 100vh;
-    /* width: 50vw; */
-}
-
-/* textes qui chevauchent */
-
-.moitS{
-    font-family: 'Square Peg', 'cursive';
+.lex{
+    padding-left: 160px;
+    font-family:'Lexend Mega', sans-serif;
     font-size: 50px;
     font-weight: 700;
-    color: #F9B43B;
+    color: #F9B43B; 
 }
-
-.moitE{
-    font-family:'Lexend Mega', sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    color: #2E2E2E;
-}
-.moitE :first-child {
-    font-family:'Lexend Mega', sans-serif;
-    font-size: 40px;
+.square{
+    padding-left: 178px;
+    font-family: 'Square Peg', 'cursive';
+    font-size: 80px;
     font-weight: 700;
     color: #2E2E2E;
 }
 
-.progress{
-    width: 45%;
-}
-
-.titleMob {
-    display: none;
-}
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&& DIPLOMES XP &&&&&&&&&&&&&&&&&&&&&& */
 
@@ -372,11 +374,7 @@ i{padding: 10px;
 @media screen and (max-width: 768px) {
 
 
-    /* &&&&&&&&&&&&&&&&&&&&&&&&& ACCUEIL &&&&&&&&&&&&&&&&&&&&& */
-
-    .closeIcon {
-        display: none;
-    }
+    /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&  MENU BURGER &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
     
     .menuItem {
         display: block;
@@ -385,7 +383,7 @@ i{padding: 10px;
         color: white;
         text-decoration: none;
     }
-
+    
     .hamburger{
         display: block;
         position: fixed;
@@ -397,11 +395,14 @@ i{padding: 10px;
         background:#2E2E2E;
         color: #F9B43B;
         font-size: 30px;
+        cursor: pointer;
     }
-
     
-
-    .menu {
+    .closeIcon{
+        display: none;
+    }
+    
+    .menu{
         display: block;
         position: fixed;
         transform: translateY(-100%);
@@ -416,11 +417,13 @@ i{padding: 10px;
         list-style: none;
         padding-top: 4rem;
     }
-
+    
     .showMenu {
         transform: translateY(0);
     }
 
+    /* &&&&&&&&&&&&&&&&&&&&&&&&& ACCUEIL &&&&&&&&&&&&&&&&&&&&& */
+    
     li { 
         font-size: 25px;
         list-style: none;
@@ -473,12 +476,34 @@ i{padding: 10px;
         width: 100%;
     }
 
-    .titleYellow , .titleGrey{
-        display: none;
+    .containerComp{
+        display: flex;
+        flex-direction: column;
     }
 
-    .moit, #comp {
-        display: none;
+    .greyLeft{
+        text-align: center;
+        padding: 0px 20px 0px 20px;
+        height: 50vh;
+        
     }
 
+    .YellRight{
+        text-align: center;
+        padding: 0px 20px 0px 20px;
+        height: 50vh;
+    }
+    
+    .lex{
+        padding-left: 0px;
+        font-size: 20px;
+    }
+    .square{
+        padding-left: 0px;
+        font-size: 40px;
+    }
+
+    .containerCompTop{
+        display: none;
+    }
 }
