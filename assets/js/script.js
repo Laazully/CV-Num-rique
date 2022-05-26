@@ -23,86 +23,121 @@ function toggleMenu() {
 hamburger.addEventListener("click", toggleMenu);
 
 
-
-// Tests pour déplacer les icones dans la div
-
-// var randomElements = document.querySelectorAll('.random') 
-// var divRandom = document.querySelector('.divRandom') 
-// // console.log(randomElements);
+// &&&&&&&&&&&&&&&&&&&&&&&&&&&&& APPARITION IMAGES DIPLOMES XP &&&&&&&&&&&&&&&&&&&&
 
 
-// // au chargement de la page
-// window.addEventListener('onload', () => {
-    
-//     // for (element of elements){
-    
-//     // }
-    
-    
-//     $(document).ready(function(){
-//         randomElements;
-//     });
-    
-//     // fonction de random
-//     function makeNewPosition(){
-        
-//         // trouver la position x et y de la divRandom
-//         var h = $(window).height() - 50; 
-//         var w = $(window).width() - 50;
-//         // les éléments de la divRandom doivent avoir un mouvement random
-//         var nh = Math.floor(Math.random() * h);
-//         var nw = Math.floor(Math.random() * w);
-        
-//         return [nh,nw];    
-        
-//     }
 
-//     function animateDiv(myclass){
-//         var newq = makeNewPosition();
-//         $(myclass).animate({ top: newq[0], left: newq[1] }, 1000,   function(){
-//         animateDiv(myclass);        
-//         });
-        
-//     };
+//réécriture du src
+var divIn = document.querySelector('.divIn');
+// console.log(divIn)
+
+var dateOne = document.querySelector('.dateDip1');
+var dateTwo = document.querySelector('.dateDip2');
+var dateTree = document.querySelector('.dateDip3');
+var dateFour = document.querySelector('.dateDip4');
+var dateFive = document.querySelector('.dateXp10');
+var dateSix = document.querySelector('.datesXp6');
+var dateSeven = document.querySelector('.datesXp7');
+var dateEight = document.querySelector('.datesXp8');
+var dateNine = document.querySelector('.datesXp9');
+var imgOne = document.querySelector('.imgOne');
+var imgTwo = document.querySelector('.imgTwo');
+var imgTree = document.querySelector('.imgTree');
+var imgFour = document.querySelector('.imgFour');
+var imgFive = document.querySelector('.imgFive');
+var imgSix = document.querySelector('.imgSix');
+var imgSeven = document.querySelector('.imgSeven');
+var imgEight = document.querySelector('.imgEight');
+var imgNine = document.querySelector('.imgNine');
+
+// console.log(dateSix)
+
+// LA MANU
+dateSix.addEventListener('mouseover', function() {
+    console.log(dateSix)
+    imgOne.style.display = 'block';
+})
+dateSix.addEventListener('mouseout', function() {
+    imgOne.style.display = 'none';
+})
+
+// COMDATA
+dateSeven.addEventListener('mouseover', function() {
+    console.log(dateSeven)
+    imgTwo.style.display = 'block';
+})
+dateSeven.addEventListener('mouseout', function() {
+    imgTwo.style.display = 'none';
+})
+
+// LA NEUVILLE
+dateEight.addEventListener('mouseover', function() {
+    console.log(dateSeven)
+    imgTree.style.display = 'block';
+})
+dateEight.addEventListener('mouseout', function() {
+    imgTree.style.display = 'none';
+})
+
+// FAMILO
+dateNine.addEventListener('mouseover', function() {
+    console.log(dateSix)
+    imgFour.style.display = 'block';
+})
+dateNine.addEventListener('mouseout', function() {
+    imgFour.style.display = 'none';
+})
+
+// MAURICE
+dateFive.addEventListener('mouseover', function() {
+    console.log(dateFive)
+    imgNine.style.display = 'block';
+})
+
+dateFive.addEventListener('mouseout', function() {
+    imgNine.style.display = 'none';
+})
+
+// WEBDESIGN
+dateOne.addEventListener('mouseover', function() {
+    console.log(dateSix)
+    imgFive.style.display = 'block';
+})
+dateOne.addEventListener('mouseout', function() {
+    imgFive.style.display = 'none';
+})
+
+// PCIE
+dateTwo.addEventListener('mouseover', function() {
+    console.log(dateSix)
+    imgSix.style.display = 'block';
+})
+dateTwo.addEventListener('mouseout', function() {
+    imgSix.style.display = 'none';
+})
+
+// MASTER
+dateTree.addEventListener('mouseover', function() {
+    console.log(dateSix)
+    imgSeven.style.display = 'block';
+})
+dateTree.addEventListener('mouseout', function() {
+    imgSeven.style.display = 'none';
+})
+
+// BAC
+dateFour.addEventListener('mouseover', function() {
+    console.log(dateSix)
+    imgEight.style.display = 'block';
+})
+dateFour.addEventListener('mouseout', function() {
+    imgEight.style.display = 'none';
+})
+// var divIn = document.queryselector('.divIn');
+
+// divIn.addEventListener('mouseover', function() {
+//     divIn.style.backgroundImage = "url('assets/img/img2.png')"
 // })
-
-
-
-// tests pour au survol dip et xp change image
-
-
-
-// var img1 = document.querySelector('#img1');
-// var img2 = document.querySelector('#img2');
-
-// img1.addEventListener('mouseover', function() {
-//     img1.style.display = 'none';
-//     img2.style.display = 'block';
+// divIn.addEventListener('mouseout', function() {
+//     divIn.style.backgroundImage = "url('assets/img/img1.jpg')"
 // })
-// img2.addEventListener('mouseout', function() {
-//     img1.style.display = 'block';
-//     img2.style.display = 'none';
-// })
-
-// Exercice 2  - réécriture du src
-// var img6 = document.querySelector('#img6');
-
-// img6.addEventListener('mouseover', function() {
-//     img6.src = 'assets/img/img2.png';
-// })
-
-// img6.addEventListener('mouseout', function() {
-//     img6.src = 'assets/img/img1.jpg';
-// })
-
-// Exercice 2  - opacity
-// var img4 = document.querySelector('#img4');
-
-// img4.addEventListener('mouseover', function() {
-//     img4.style.opacity = 0;
-// })
-// img4.addEventListener('mouseout', function() {
-//     img4.style.opacity = 1;
-// })
-
-

@@ -18,6 +18,9 @@ a:hover{
     color: grey;
 }
 
+img{
+    height: 300px;
+}
 /* &&&&&&&&&&&&&&&&&&&&&& ACCUEIL &&&&&&&&&&&&&&&&&&&&&& */
 
 /* Haut de page */
@@ -208,6 +211,17 @@ li{
     background-color: #F9B43B;
     margin-bottom: 80px;
 }
+
+.imgOne, .imgTwo , .imgTree , .imgFor , .imgFive, .imgSix ,.imgSeven, .imgEight , .imgNine{
+    display: none;
+}
+
+.imgFive, .imgSix , .imgSeven, .imgEight {
+    padding-top: 20vh ;
+    padding-left: 2vw;
+    color: #2E2E2E;
+}
+
 .divDip{
     display: flex;
     flex-direction: column;
@@ -237,9 +251,9 @@ li{
     padding: 10px 0px 10px 0px;
 }
 .divIn{
-    height: 50vh;
+    height: 60vh;
     width: 50vh;
-    background-color: rgb(23, 90, 192);
+    overflow: hidden;
 }
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&&& A PROPOS &&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
@@ -736,6 +750,7 @@ p{
     }
     .divIn{
         display: none;
+        
     }
 
     .diplomes {
