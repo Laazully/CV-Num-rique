@@ -316,7 +316,7 @@ h2{
 
 i{padding: 10px;
 }
-.workLinks, a{
+.workLinks{
     text-decoration: none;
     color: #F9B43B;
     font-size: 30px;
