@@ -314,8 +314,10 @@ h2{
 }
 /* icones en haut */
 
-i{padding: 10px;
+i{
+    padding: 10px;
 }
+
 .workLinks{
     text-decoration: none;
     color: #F9B43B;
@@ -391,7 +393,6 @@ p{
     position: absolute;
     padding: 80px 0px 0px 20px;
 }
-
 .fa-screwdriver-wrench{
     position: absolute;
     padding: 80px 0px 0px 230px;
@@ -404,33 +405,27 @@ p{
     position: absolute;
     padding: 100px 0px 0px 170px;
 }
-
 .fa-video{
     position: absolute;
     padding: 100px 0px 0px 80px;
 }
-
 .fa-film{
     position: absolute;
     padding: 180px 0px 0px 210px;
 }
-
 .fa-atom{
     position: absolute;
     padding: 10px 0px 0px 125px;
 }
-
 .fa-palette{
     position: absolute;
     padding: 180px 0px 0px 40px;
 }
-
 .fa-gamepad{
     position: absolute;
     padding: 170px 0px 0px 120px;
     
 }
-
 .fa-dice-d20 {
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
     transform: translate3d(0, 0, 0);
@@ -518,7 +513,7 @@ p{
         transform: translateY(0);
     }
 
-    /* &&&&&&&&&&&&&&&&&&&&&&&&& ACCUEIL &&&&&&&&&&&&&&&&&&&&& */
+    /* &&&&&&&&&&&&&&&&&&&&&&&&& ACCUEIL  MODE MOBILE &&&&&&&&&&&&&&&&&&&&& */
     
     li { 
         font-size: 25px;
@@ -681,48 +676,73 @@ p{
         padding-top: 10px;
     }
 
-    /* ICONES HOBBIES */
-.fa-music{
-    position: absolute;
-    padding: 40px 0px 0px 10px;
-}
+    /* icones Hobbies */
+    .fa-music{
+        position: absolute;
+        padding: 40px 0px 0px 10px;
+    }
 
-.fa-screwdriver-wrench{
-    position: absolute;
-    padding: 40px 0px 0px 115px;
-}
-.fa-person-biking{
-    position: absolute;
-    padding: 120px 0px 0px 62.5px;
-}
-.fa-person-swimming{
-    position: absolute;
-    padding: 50px 0px 0px 85px;
-}
+    .fa-screwdriver-wrench{
+        position: absolute;
+        padding: 40px 0px 0px 115px;
+    }
+    .fa-person-biking{
+        position: absolute;
+        padding: 120px 0px 0px 62.5px;
+    }
+    .fa-person-swimming{
+        position: absolute;
+        padding: 50px 0px 0px 85px;
+    }
+    .fa-video{
+        position: absolute;
+        padding: 50px 0px 0px 40px;
+    }
+    .fa-film{
+        position: absolute;
+        padding: 90px 0px 0px 105px;
+    }
+    .fa-atom{
+        position: absolute;
+        padding: 5px 0px 0px 62.5px;
+    }
+    .fa-palette{
+        position: absolute;
+        padding: 90px 0px 0px 20px;
+    }
+    .fa-gamepad{
+        position: absolute;
+        padding: 85px 0px 0px 60px;
+        
+    }
 
-.fa-video{
-    position: absolute;
-    padding: 50px 0px 0px 40px;
-}
-
-.fa-film{
-    position: absolute;
-    padding: 90px 0px 0px 105px;
-}
-
-.fa-atom{
-    position: absolute;
-    padding: 5px 0px 0px 62.5px;
-}
-
-.fa-palette{
-    position: absolute;
-    padding: 90px 0px 0px 20px;
-}
-
-.fa-gamepad{
-    position: absolute;
-    padding: 85px 0px 0px 60px;
+    /* &&&&&&&&&&&&&&&&&&&&&&&&&&&& DIPLOMES XP MODE MOBILE &&&&&&&&&&&&&&&&&&&&&&&&&& */
+    .containerXp{
+        display: flex;
+        flex-direction: column;
+    }
+    .topXp{
+        display: none;
+    }
+    .divDip, .divXp{
+        text-align: center;
+    }
     
-}
+    .midXp {
+        height: 39vh;
+        width: 90vw;
+    }
+    .divIn{
+        display: none;
+    }
+
+    .diplomes {
+        padding-bottom: 9px;
+    }
+    .divInMob{
+        background-color: aqua;
+        height: 39vh;
+        width: 90vw;
+        display: block;
+    }
 }
