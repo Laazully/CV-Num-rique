@@ -675,11 +675,18 @@ p{
     }
 
     .me{
-        margin: 250px 0px 0px 0px;
-        width: 189vw;
-        height: 100vh;
-        transform: scale(0.5);
+        display: none;
     }
+    .lilMe{
+        position: absolute;
+        background-image: url("../img/lilme.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        margin-top: 44vh;
+    }
+    
 
     #job{
         position: absolue;
@@ -689,12 +696,39 @@ p{
         
     }
     
+
+    .footerContact{
+        flex-direction: column;
+        height: 70vh;
+    }
+
+    .cv{
+        margin: 10px 0px 10px 0px;
+        font-size: 10px;
+    }
+
+    label{
+        font-size: 15px;
+    }
     .contact{
         height: 20vh;
         background-color: #2E2E2E;
         display: flex;
         align-items: center;
         justify-content: space-around;
+        margin: 0px;
+        height: 45vh;
+        width: 70%;
+    }
+
+    input, textarea{
+        
+        font-size: 20px;
+        width: 80vw;
+    }
+
+    .valid{
+        width: 30vw;
     }
     /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&  COMPETENCES MODE MOBILE  &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
