@@ -212,6 +212,22 @@ input{
 
 /*&&&&&&&&&&&&&&&&&&&&&& COMPETENCES &&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
+
+#compet{
+    color: #F9B43B; 
+    font-family:'Lexend Mega', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    margin: 16vh 0vh 0vh 87vh;
+}
+
+span{
+    font-family: 'Square Peg', 'cursive';
+    font-size: 40px;
+    font-weight: 700;
+    color: #2E2E2E;
+}
 .containerCompTop , .ul .li {
     position: absolute;
     display: flex;
@@ -250,6 +266,25 @@ li{
     color: #F9B43B;
 }
 
+.laguage{
+    padding-right: 14vh;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.infor{
+    padding-right: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10vh;
+}
+.office{
+    
+    display: flex;
+    justify-content: center;
+}
 .YellRight{
     display: flex;
     flex-direction: column;
@@ -261,6 +296,7 @@ li{
     background-color: #F9B43B;
 }
 .lex{
+        padding-top: 11vh;
     padding-left: 160px;
     font-family:'Lexend Mega', sans-serif;
     font-size: 50px;
@@ -732,7 +768,9 @@ p{
     }
     /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&  COMPETENCES MODE MOBILE  &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
-    
+    #compet{
+        display: none;
+    }
     .progress {
         width: 100%;
     }
@@ -745,19 +783,30 @@ p{
     .greyLeft{
         text-align: center;
         padding: 0px 20px 0px 20px;
-        height: 50vh;
+        height: 70vh;
         
     }
 
     .YellRight{
         text-align: center;
         padding: 0px 20px 0px 20px;
-        height: 50vh;
+        height: 70vh;
     }
     
     .lex{
         padding-left: 0px;
         font-size: 20px;
+    }
+
+    .infor{
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+
+    .language{
+        padding: 50px 0px 10px 0px;
+        
+        
     }
     .square{
         padding-left: 0px;
