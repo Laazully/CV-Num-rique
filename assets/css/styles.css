@@ -21,8 +21,36 @@ a:hover{
 img{
     max-height: 300px;
 }
-/* &&&&&&&&&&&&&&&&&&&&&& ACCUEIL &&&&&&&&&&&&&&&&&&&&&& */
 
+/* scroll bar custom pour chrome etc... */
+body::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+    }
+
+body::-webkit-scrollbar-track {
+    background: #F9B43B; /* color of the tracking area */
+    }
+
+body::-webkit-scrollbar-thumb {
+    background-color: #2E2E2E; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid #F9B43B; /* creates padding around scroll thumb */
+    }
+
+/*  Custom scroll pour Fire fox */
+
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: #2E2E2E #F9B43B;
+    }
+
+
+
+/* &&&&&&&&&&&&&&&&&&&&&& ACCUEIL &&&&&&&&&&&&&&&&&&&&&& */
+.containerXp{
+    display: flex;
+    flex-direction: column;
+}
 /* Haut de page */
 
 .menu , menuItem , .hamburger {
@@ -71,8 +99,6 @@ li:hover{
     transition-duration: 2s;
     transition-delay: 0s;
     
-    
-
 }
 
 .containerAcc{
@@ -117,6 +143,71 @@ li:hover{
     text-shadow: 2px 2px 0px#2E2E2E;
     /* background-color:#e0e0e0; */
     border-radius: 15px;
+}
+
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& CONTACT &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+.footerContact{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #2E2E2E;
+}
+
+label{
+    margin: 10px;
+}
+
+input{
+    margin: 10px;
+}
+.cv{
+    margin: 10px 0px 50px 0px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Lexend Mega', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #F9B43B;
+}
+
+.contact{
+    margin: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-family:'Lexend Mega', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #F9B43B;
+}
+
+textarea{
+    margin: 10px;
+    height: 5vh;
+    width: 30vw;
+    color:  #2E2E2E;
+}
+
+input{
+    height: 5vh;
+    width: 30vw;
+    color:  #2E2E2E;
+}
+.valid{
+    font-family:'Lexend Mega', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    height: 5vh;
+    width: 10vw;
+    padding: 5px;
+    border-radius: 10px;
+    color:  #2E2E2E;
 }
 
 /*&&&&&&&&&&&&&&&&&&&&&& COMPETENCES &&&&&&&&&&&&&&&&&&&&&&&&&&& */
