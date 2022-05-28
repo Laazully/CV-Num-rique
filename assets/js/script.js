@@ -49,7 +49,12 @@ var imgSix = document.querySelector('.imgSix');
 var imgSeven = document.querySelector('.imgSeven');
 var imgEight = document.querySelector('.imgEight');
 var imgNine = document.querySelector('.imgNine');
+var validContact = document.querySelector('.mail')
 
+
+validContact.addEventListener('click', function() {
+    alert('Désolée, cette fonction n \'est pas encore disponible... Mais mes coordonnées sont notées sur mon CV PDF téléchargeable dans cette section.')
+})
 // console.log(dateSix)
 
 // LA MANU
@@ -148,3 +153,5 @@ dateFour.addEventListener('click', function() {
         },3000)
     },200);
 })
+
+
