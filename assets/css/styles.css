@@ -13,13 +13,14 @@ a{
     color: #e0e0e0;
 }
 
-a:hover{
-    transform: scale(0.8, 1);
-    color: grey;
-}
-
 img{
     max-height: 300px;
+}
+
+
+/* changer le curseur quand action */
+li , .divDip, .divXp {
+    cursor:pointer;
 }
 
 /* scroll bar custom pour chrome etc... */
@@ -73,10 +74,24 @@ ul{
     justify-content: space-around;
 }    
 
-/* hover effet écrasement */
-li:hover{
-    transform: scale(0.8, 1);
-    color: grey;
+/* hover effet souligné*/
+
+a:hover{
+    color: #fff;
+}
+
+a::after {
+    content: "";
+    display: block;
+    height: 0.25em;
+    width: 0%;
+    margin-bottom: 9px;
+    background-color: #fff;
+    transition: width 0.4s;
+}
+
+a:hover::after {
+    width: 100%;
 }
 
 /*  pour mettre image sur tte la page accueil */
@@ -96,8 +111,7 @@ li:hover{
     background-image: url("../img/me.png");
     background-position: center;
     background-repeat: no-repeat;
-    transition-duration: 2s;
-    transition-delay: 0s;
+    transition: margin-top 1s ease-in-out 0s;
     
 }
 
@@ -139,10 +153,11 @@ li:hover{
 
 #job{
     margin-top: 30px;
-    color:#fff;
-    text-shadow: 2px 2px 0px#2E2E2E;
-    /* background-color:#e0e0e0; */
+    margin-left:50px;
+    color:#F9B43B;
+    /* text-shadow: 2px 2px 0px#2E2E2E; */
     border-radius: 15px;
+    font-size: 20px;
 }
 
 
@@ -206,13 +221,18 @@ input{
     font-family:'Lexend Mega', sans-serif;
     font-size: 15px;
     font-weight: 700;
-    height: vh;
+    height: 5vh;
     width: 20vw;
     padding: 5px;
+    padding-top: 20px;
     border: solid 2px #F9B43B;
     background-color: #2E2E2E;
     border-radius: 10px;
     color:  #F9B43B;
+}
+
+.mail{
+    padding-top: 0px;
 }
 
 /*&&&&&&&&&&&&&&&&&&&&&& COMPETENCES &&&&&&&&&&&&&&&&&&&&&&&&&&& */
@@ -414,10 +434,6 @@ h2{
     padding-bottom: 30px;
     font-family:'Lexend Mega', sans-serif;
     font-size: 20px;
-}
-
-.h2Side:hover{
-    color: grey;
 }
 
 .h2Side{
@@ -698,11 +714,12 @@ p{
     }
 
     .right{
+        padding-left: 35px;
         font-size: 25px;
     }
 
     .left{
-        padding-left: 20px;
+        padding-left: 35px;
         font-size: 50px;
     }
 
@@ -730,12 +747,13 @@ p{
     }
     
 
+
     #job{
         position: absolue;
         margin-top: 150px;
         text-align: center;
-        font-size: 40px;
-        
+        font-size: 20px;
+        color:#F9B43B;
     }
     
 
@@ -770,7 +788,12 @@ p{
     }
 
     .valid{
+        padding-bottom: 40px;
         width: 40vw;
+    }
+
+    .mail{
+        padding-top: 20px;
     }
     /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&  COMPETENCES MODE MOBILE  &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
     h2{
@@ -895,7 +918,7 @@ p{
         height: 25vh;
         width: 45vw;
     }
-    .fa-solid, .fa-instagram{
+    .fa-instagram{
         font-size: 30px;
         text-shadow: none;
     }
