@@ -193,6 +193,10 @@ input{
     color: #F9B43B;
 }
 
+.yellow{
+    margin-bottom: 2vh;
+}
+
 .contact{
     margin: 10px;
     flex-direction: column;
