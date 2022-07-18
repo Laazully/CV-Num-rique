@@ -241,6 +241,14 @@ input{
 
 /*&&&&&&&&&&&&&&&&&&&&&& COMPETENCES &&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
+.title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family:'Lexend Mega', sans-serif;
+    font-size: 12px;
+
+}
 #compet{
     color: #F9B43B; 
     font-family:'Lexend Mega', sans-serif;
