@@ -832,10 +832,11 @@ p{
     #compet{
         display: none;
     }
-    /* .progress {
-        width: 100%;
-    } */
     
+    .title{
+        font-size: 0px;
+    }
+
     .frontC{
         height: 5rem;
         max-width: 18vw;
