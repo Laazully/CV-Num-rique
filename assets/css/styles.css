@@ -286,8 +286,9 @@ li{
     
 } */
 .frontC{
-    height: 8rem;
-    max-width: 8vw;
+    height: 5rem;
+    max-width: 5vw;
+    margin: 10px;
 }
 
 .frontC:hover{
@@ -295,9 +296,10 @@ li{
     
 }
 
-.frontComp, .designComp{
+.frontComp, .designComp, .designCompBis {
     display: flex;
     max-width: 50vw;
+    
 }
 
 .fa-solid, .fas {
@@ -599,38 +601,47 @@ p{
 }
 /* ICONES HOBBIES */
 .fa-music{
+    font-size: 30px;
     position: absolute;
     padding: 80px 0px 0px 20px;
 }
 .fa-screwdriver-wrench{
+    font-size: 30px;
     position: absolute;
     padding: 80px 0px 0px 230px;
 }
 .fa-person-biking{
+    font-size: 30px;
     position: absolute;
     padding: 240px 0px 0px 125px;
 }
 .fa-person-swimming{
+    font-size: 30px;
     position: absolute;
     padding: 100px 0px 0px 170px;
 }
 .fa-video{
+    font-size: 30px;
     position: absolute;
     padding: 100px 0px 0px 80px;
 }
 .fa-film{
+    font-size: 30px;
     position: absolute;
     padding: 180px 0px 0px 210px;
 }
 .fa-atom{
+    font-size: 30px;
     position: absolute;
     padding: 10px 0px 0px 125px;
 }
 .fa-palette{
+    font-size: 30px;
     position: absolute;
     padding: 180px 0px 0px 40px;
 }
 .fa-gamepad{
+    font-size: 30px;
     position: absolute;
     padding: 170px 0px 0px 120px;
     
@@ -838,8 +849,9 @@ p{
     }
 
     .frontC{
-        height: 5rem;
+        height: 3rem;
         max-width: 18vw;
+        margin: 2px;
     }
     
     .frontC:hover{
@@ -979,39 +991,48 @@ p{
 
     /* icones Hobbies */
     .fa-music{
+        font-size: 20px;
         position: absolute;
         padding: 25px 0px 0px 10px;
     }
 
     .fa-screwdriver-wrench{
+        font-size: 20px;
         position: absolute;
         padding: 40px 0px 0px 115px;
     }
     .fa-person-biking{
+        font-size: 20px;
         position: absolute;
         padding: 120px 0px 0px 62.5px;
     }
     .fa-person-swimming{
+        font-size: 20px;
         position: absolute;
         padding: 50px 0px 0px 85px;
     }
     .fa-video{
+        font-size: 20px;
         position: absolute;
         padding: 50px 0px 0px 40px;
     }
     .fa-film{
+        font-size: 20px;
         position: absolute;
         padding: 90px 0px 0px 105px;
     }
     .fa-atom{
+        font-size: 20px;
         position: absolute;
         padding: 5px 0px 0px 62.5px;
     }
     .fa-palette{
+        font-size: 20px;
         position: absolute;
         padding: 90px 0px 0px 20px;
     }
     .fa-gamepad{
+        font-size: 20px;
         position: absolute;
         padding: 85px 0px 0px 60px;
         
